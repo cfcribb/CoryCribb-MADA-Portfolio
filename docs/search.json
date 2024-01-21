@@ -149,16 +149,16 @@
   {
     "objectID": "aboutme.html",
     "href": "aboutme.html",
-    "title": "About me",
+    "title": "About Myself",
     "section": "",
-    "text": "Add some text and a figure describing myself.\nFor details, see the exercise instructions."
+    "text": "Intro: My name is Cory Cribb, I am a second year Ph.D student in the Kinesiology department at UGA. My main research interests would be to explore the benefits of exercise on mental health as well as the benefits of exercise for people with disabilities. My main role is as a researcher in UGA Neuromusculoskeletal Health laboratory in which we are finishing an NIH funded study on the effects of whole body vibration as an intervention for children with cerebral palsy. Additionally, I teach a practicum class which trains undergraduates on how to train people with disabilities.\nStatistical Background: My main background in statistics is using SPSS to run data analysis. I have some practice in using R as a data analysis tool but only for a couple of stats courses. I do not have any programming background prior to this class.\nGoals for class: My main goals for this class would be to practice using R for more proficiency and to learn some of the basics for programming.\nQuirks: My main hobbies are weightlifting, running, and reading for pleasure i.e outside of academic articles.\nhttps://www.youtube.com/watch?v=vYdghIMsfa4\nI included this link to a short video as I feel like it details a lot of the struggles with predicting mental health in the population. While we can recognize mental health disorders when they occur, the triggers or onset of the disorder can be more difficult to pinpoint. Since these triggers are difficult to find; preventative measures, such as exercise, are also more difficult to prove do to the many facotrs that go into a mental health diagnosis."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My website and data analysis portfolio",
+    "title": "Cory’s website and data analysis portfolio",
     "section": "",
-    "text": "Hello\n\nAnd hello again\nWelcome to my website and data analysis portfolio.\n\nPlease use the Menu Bar above to look around.\nHave fun!\n\nFeel free to change this text any way you want 😁!"
+    "text": "Hello\nWelcome to my website and data analysis portfolio.\nGo Dawgs!"
   },
   {
     "objectID": "starter-analysis-exercise/code/analysis-code/readme.html",

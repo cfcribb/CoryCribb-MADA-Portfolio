@@ -1,7 +1,20 @@
 ---
-title: "About me"
+title: "About Myself"
 ---
 
-Add some text and a figure describing myself.
+Intro:
+My name is Cory Cribb, I am a second year Ph.D student in the Kinesiology department at UGA. My main research interests would be to explore the benefits of exercise on mental health as well as the benefits of exercise for people with disabilities. My main role is as a researcher in UGA Neuromusculoskeletal Health laboratory in which we are finishing an NIH funded study on the effects of whole body vibration as an intervention for children with cerebral palsy. Additionally, I teach a practicum class which trains undergraduates on how to train people with disabilities.
 
-For details, see the exercise instructions. 
+Statistical Background:
+My main background in statistics is using SPSS to run data analysis. I have some practice in using R as a data analysis tool but only for a couple of stats courses. I do not have any programming background prior to this class.
+
+Goals for class:
+My main goals for this class would be to practice using R for more proficiency and to learn some of the basics for programming. 
+
+Quirks:
+My main hobbies are weightlifting, running, and reading for pleasure i.e outside of academic articles.
+
+
+https://www.youtube.com/watch?v=vYdghIMsfa4
+
+I included this link to a short video as I feel like it details a lot of the struggles with predicting mental health in the population. While we can recognize mental health disorders when they occur, the triggers or onset of the disorder can be more difficult to pinpoint. Since these triggers are difficult to find; preventative measures, such as exercise, are also more difficult to prove do to the many facotrs that go into a mental health diagnosis.  
