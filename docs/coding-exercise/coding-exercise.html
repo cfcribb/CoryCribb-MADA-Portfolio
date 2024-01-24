@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>YOURNAME Data Analysis Portfolio - R Coding Exercise</title>
+<title>Cory Cribb’s Data Analysis Portfolio - R Coding Exercise</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">YOURNAME Data Analysis Portfolio</span>
+    <span class="navbar-title">Cory Cribb’s Data Analysis Portfolio</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="../URL-TO-THIS-REPOSITORY-HERE" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/cfcribb/CoryCribb-MADA-Portfolio" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -147,7 +147,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Placeholder file for the future R coding exercise.</p>
+<p>#load dslabs library(dslabs)</p>
+<p>#observe gapmninder data help(gapminder)</p>
+<p>str(gapminder) summary(gapminder) class(gapminder)</p>
+<p>#seperate and observe African countries africadata&lt;- gapminder[gapminder$continent == “Africa”, ] str(africadata) summary(africadata)</p>
+<p>#New object for infant mortality and life expectancy infant_mort_and_Life_Ex &lt;- africadata[, c(“infant_mortality”, “life_expectancy”)] #New object for population and life expectancy pop_and_Life_Ex &lt;- africadata[, c(“population”, “life_expectancy”)]</p>
+<p>#View infant mortality str(infant_mort_and_Life_Ex) summary(infant_mort_and_Life_Ex)</p>
+<p>#View Popultaion str(pop_and_Life_Ex) summary(pop_and_Life_Ex)</p>
+<p>#Create plots to view infant mortality and population compared to life expectancy attach(africadata) plot(infant_mortality, life_expectancy, main=“infant mortality and life expectancy”, xlab=“Infant mortality”, ylab= “life_expectancy”)</p>
+<p>attach(africadata) plot(log, population, life_expectancy, main=“Population and life expectancy”, xlab=“population”, ylab= “life_expectancy”)</p>
+<p>#after viewing trends we see there is missing data #Lets take a look at a specfic year, 2000 africadata_2000 &lt;-africadata[africadata$year==2000, ]</p>
+<p>#Now lets plot the data again attach(africadata_2000) plot(infant_mortality, life_expectancy, main=“infant mortality and life expectancy”, xlab=“Infant mortality”, ylab= “life_expectancy”)</p>
+<p>attach(africadata_2000) plot(log, population, life_expectancy, main=“Population and life expectancy”, xlab=“population”, ylab= “life_expectancy”)</p>
+<p>#Lets create a linear model from the year 2000 data fit1&lt;-lm(life_expectancy~ infant_mortality, africadata_2000) summary(fit1)</p>
+<p>fit2&lt;-lm(life_expectancy~ population, africadata_2000) summary(fit2)</p>
+<p>#infant mortality is a statistically significant predictor of life expectancy #While population was not a statistically significant predictor.</p>
 
 
 
